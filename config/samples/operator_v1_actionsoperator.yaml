@@ -1,0 +1,9 @@
+apiVersion: operator.actions-operator.io/v1
+kind: ActionsOperator
+metadata:
+  labels:
+    app.kubernetes.io/name: actions-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: actionsoperator-sample
+spec:
+  # TODO(user): Add fields here
